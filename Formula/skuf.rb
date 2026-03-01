@@ -13,6 +13,7 @@ class Skuf < Formula
     bin.install "stage0/out/skufc-stage0" => "skufc"
     bin.install "skuf-cli.sh" => "skuf"
     bin.install "skufit"
+    bin.install ".version"
   end
 
   test do
