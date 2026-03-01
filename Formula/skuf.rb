@@ -2,8 +2,8 @@ class Skuf < Formula
   desc "The Skuf programming language compiler"
   homepage "https://github.com/skuf-lang/skuf"
   # url and sha256 are auto-updated by .github/workflows/release.yml
-  url "https://github.com/skuf-lang/homebrew-tap/releases/download/v0.0.12/skuf-v0.0.12-source.tar.gz"
-  sha256 "965366cb029aa108a5567015c4710fa7c516962c3f7a097ed0415083a870506d"
+  url "https://github.com/skuf-lang/homebrew-tap/releases/download/v0.0.13/skuf-v0.0.13-source.tar.gz"
+  sha256 "f4928c33bc7f31a6adc0e46dea91761f6533d13fbc82c2cdfb3cc0a1f2f3deff"
   license "MIT"
 
   def install
