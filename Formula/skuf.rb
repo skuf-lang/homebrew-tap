@@ -12,6 +12,7 @@ class Skuf < Formula
            "CFLAGS=-O2 -Wall -Wextra"
     bin.install "stage0/out/skufc-stage0" => "skufc"
     bin.install "skuf-cli.sh" => "skuf"
+    bin.install "skufit"
   end
 
   test do
