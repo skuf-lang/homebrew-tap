@@ -13,6 +13,7 @@ class Skuf < Formula
     bin.install "stage0/out/skufc-stage0" => "skufc"
     bin.install "skuf-cli.sh" => "skuf"
     bin.install "skufit"
+    bin.install "norm"
     bin.install ".version"
   end
 
@@ -20,7 +21,7 @@ class Skuf < Formula
     (testpath/"hello.skf").write <<~SKF
       module main
 
-      fn main():
+      fn main:
         print("hello from brew")
     SKF
     system bin/"skufc", "-in", testpath/"hello.skf", "-o", testpath/"hello"
